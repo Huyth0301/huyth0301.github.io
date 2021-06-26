@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/ic_baseline_person_add_24"
+        app:showAsAction="ifRoom"
+        android:title="Thêm nhân viên"/>
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/ic_baseline_menu_24"
+        app:showAsAction="withText"
+        android:title="Quản lý tài khoản"/>
+    <item
+        android:id="@+id/employee"
+        android:icon="@drawable/ic_baseline_menu_24"
+        app:showAsAction="withText"
+        android:title="Quản lý nhân viên"/>
+    <item
+        android:id="@+id/phongban"
+        android:icon="@drawable/ic_baseline_menu_24"
+        app:showAsAction="withText"
+        android:title="Quản lý phòng ban"/>
+    <item
+        android:id="@+id/bacluong"
+        android:icon="@drawable/ic_baseline_menu_24"
+        app:showAsAction="withText"
+        android:title="Quản lý bậc lương"/>
+    <item
+        android:id="@+id/bangluong"
+        android:icon="@drawable/ic_baseline_menu_24"
+        app:showAsAction="withText"
+        android:title="Bảng lương"/>
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_baseline_menu_24"
+        app:showAsAction="withText"
+        android:title="Đăng xuất"/>
+
+</menu>

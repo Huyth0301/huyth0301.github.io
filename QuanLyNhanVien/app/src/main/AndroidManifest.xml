@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.btl.quanlynhanvien">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Manager Employee"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuanLyNhanVien">
+        <activity android:name=".Activity_BangLuong"
+            android:parentActivityName=".Activity_Employee"></activity>
+        <activity android:name=".Activity_ChamCong"
+            android:parentActivityName=".Activity_Login"
+            />
+        <activity android:name=".Activity_PhongBan" />
+        <activity android:name=".Infor_PhongBan"
+            android:parentActivityName=".Activity_PhongBan"/>
+        <activity android:name=".Infor_BacLuong"
+            android:parentActivityName=".Activity_BacLuong"/>
+        <activity android:name=".Activity_BacLuong" />
+        <activity android:name=".Infor_Account"
+            android:parentActivityName=".Activity_Account"/>
+        <activity android:name=".Activity_Account" />
+        <activity android:name=".Activity_Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Infor_Employee"
+            android:parentActivityName=".Activity_Employee" />
+        <activity android:name=".Activity_Employee">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+
+        </activity>
+    </application>
+
+</manifest>
